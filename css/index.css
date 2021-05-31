@@ -1,0 +1,15 @@
+#title_main_page {
+    background-color: black;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/53/aa/f6/53aaf6011bba6d6bb0499e1eef12c26d.jpg');
+    background-size: cover;
+}
+
+#title_main_page div{
+    padding-left: 30px;
+}
+
+#codes_list{
+    color: white;
+    margin-top: 50px;
+}
