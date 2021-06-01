@@ -2,6 +2,9 @@ body{
     font-family:arial,helvetica;
     border: 0px;
     margin: 0px;
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,4 +24,35 @@ a:hover{
 .title{
     color: white;
     font-size: 80px;
+}
+
+/** FOLDER **/
+
+.folder{
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 0px 0px 20px #000f80;
+    border-radius: 20px;
+    background-image: url("../img/bg1-blur.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.folder::before{
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.ftitle{
+    font-size: 90px;
+    color: grey;
+}
+
+.fdescription{
+    margin: 10px;
 }
