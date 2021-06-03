@@ -31,12 +31,13 @@ a:hover{
 .folder{
     margin: 100px;
     padding: 50px;
-    box-shadow: 0px 0px 20px #000f80;
     border-radius: 20px;
     background-image: url("../img/bg1-blur.jpg");
     background-attachment: fixed;
     background-size: cover;
+    border: 5px solid grey;
 }
+
 .folder::before{
     background-image: url("../img/bg1.jpg");
     background-attachment: fixed;
