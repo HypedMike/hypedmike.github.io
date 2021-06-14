@@ -13,3 +13,14 @@
     color: white;
     margin-top: 50px;
 }
+
+.white{
+    bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/**<!-- FOLDERS ANIMATIONS -->**/
+

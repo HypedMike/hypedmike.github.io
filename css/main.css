@@ -51,9 +51,23 @@ a:hover{
 
 .ftitle{
     font-size: 90px;
-    color: grey;
+    color: white;
+    background-color: grey;
+    width: 100%;
 }
 
 .fdescription{
     margin: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.fdescription iframe{
+    align-items: center;
+}
+
+/** IMAGE FILTERS **/
+
+.white{
+    filter: invert(1);
 }
