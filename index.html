@@ -4,6 +4,8 @@
             Mike Vision
         </title>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/phone/main.css">
@@ -58,10 +60,10 @@
                 </table>
             </div>
             <div  class="white">
-                <img src="img/arrowdown.png" height="100px">
+                <img src="img/arrowdown.png" height="100px" id="scroll_down_button" onclick="move_to('#scroll_down_button', '@body')">
             </div>
         </div>
-        <table>
+        <table id="body">
             <tr>
                 <div id="projects_canvas" class="folder f1">
                     <div class="ftitle">
@@ -140,6 +142,26 @@
                         </p>
                         <p>
                             <i>Disclaimer: the app is all written in JAVA. There could be errors and crushes. I recommend it just to people who know what they are doing. Current version: 1.0</i>
+                        </p>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <div id="projects_canvas" class="folder f5">
+                    <div class="ftitle">
+                        Numpy and C++?
+                        <p>
+                            <i>Kind of...</i>
+                        </p>
+                    </div>
+                    <div class="fdescription">
+                        I'm currently working on a library for C++ to make C++ way faster to approach for math related problems.
+                        <p>
+                            Right now I'm focusing on matrices and vectors. At the moment, the most famous lib with the same function, is GNU Scientific Library, but the goal here is to be able to have a library as easy as Numpy but written in C++ for C++.
+                        </p>
+                        <p>
+                            You can find the interesting stuff down here. If you were interested in helping me out, contact me through <a href="michele.saladino@outlook.it">my email</a>.
+                            <a href="https://github.com/HypedMike/Math">Math for C++</a> <i>I have not yet found a better name so I'll stick with this</i>.
                         </p>
                     </div>
                 </div>

@@ -26,6 +26,11 @@ a:hover{
     font-size: 80px;
 }
 
+iframe{
+    border: 3px solid grey;
+    border-radius: 50px;
+}
+
 /** FOLDER **/
 
 .folder{

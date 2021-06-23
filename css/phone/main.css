@@ -10,4 +10,12 @@
     a{
         font-size: 50px;
     }
+    .ftitle{
+        background-color: transparent;
+        color: grey;
+    }
+    .folder{
+        background-image: none;
+        background-color: white;
+    }
 }
