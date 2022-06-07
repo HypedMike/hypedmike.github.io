@@ -1,0 +1,151 @@
+:root{
+    --tea-green: #d1f0b1ff;
+    --laurel-green: #b6cb9eff;
+    --cambridge-blue: #92b4a7ff;
+    --taupe-gray: #8c8a93ff;
+    --old-lavender: rgb(44, 34, 41);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--raisin-black);
+    color: var(--thistle);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a{
+    color: #81667aff;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+    gap: 30px;
+}
+.navbar div a{
+    color: var(--taupe-gray);
+}
+
+.follow{
+    position: fixed;
+    top: 0px;
+    display: none;
+    backdrop-filter: blur(8px) brightness(120%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.follow div a{
+    color: black;
+}
+
+/* LANDING PAGE */
+
+.landing-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--old-lavender);
+    color: var(--tea-green);
+}
+.landing-page h1{
+    padding-top: 35vh;
+}
+
+/* CONTENT */
+
+.content{
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    padding-top: 50px;
+}
+.container1{
+    background-color: var(--taupe-gray);
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100;
+}
+.container1 a{
+    color: red;
+}
+.container1 a:hover{
+    color: white;
+}
+.container2{
+    height: auto;
+}
+
+/* SHOWTIL */
+
+.video-showreel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gitbutton{
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 15em;
+}
+.gitbutton h2 a{
+    background-color: white;
+    padding: 10px;
+    color: var(--taupe-gray);
+}
+.gitbutton h2 a:hover{
+    background-color: var(--tea-green);
+    color: var(--taupe-gray);
+}
+
+@media only screen and (max-width: 700px){
+    iframe{
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+    }
+    .follow{
+        backdrop-filter: blur(10px) brightness(180%);
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    #navbar-btt{
+        display: flex;
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 2px;
+        backdrop-filter: none;
+    }
+}
+
+
+.footer{
+    background-color: var(--laurel-green);
+    text-align: center;
+}
