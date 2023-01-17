@@ -1,0 +1,22 @@
+[
+    {
+        "img": "logohand.png",
+        "link": "www.yeplog.centroyep.it",
+        "name": "YepLog",
+        "description": "Online educational archive of exercises and material to study scientifc subjects",
+        "maincolor": "rgb(0, 0, 0)"
+    },
+    {
+        "img": "classicum.png",
+        "name": "Classicum",
+        "description": "Web app to manage the Classicum Organization's administration (guests, parties, lists...)",
+        "maincolor": "rgb(0, 0, 0)"
+    },
+    {
+        "img": "main logo.png",
+        "link": "www.levele.rf.gd",
+        "name": "Le Vele",
+        "maincolor": "rgb(255, 255, 255)",
+        "description": "Website made to share news and activities of the community of the San Donato's Church"
+    }
+]
