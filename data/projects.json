@@ -3,7 +3,7 @@
         "img": "logohand.png",
         "link": "www.yeplog.centroyep.it",
         "name": "YepLog",
-        "description": "Online educational archive of exercises and material to study scientifc subjects",
+        "description": "Online educational archive of exercises and materials to study scientific subjects",
         "maincolor": "rgb(0, 0, 0)"
     },
     {
@@ -17,6 +17,6 @@
         "link": "www.levele.rf.gd",
         "name": "Le Vele",
         "maincolor": "rgb(255, 255, 255)",
-        "description": "Website made to share news and activities of the community of the San Donato's Church"
+        "description": "News and activity scharing for the community of the San Donato's Church"
     }
 ]
