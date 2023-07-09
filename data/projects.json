@@ -1,15 +1,16 @@
 [
     {
+        "img": "classicum.png",
+        "link": "www.classicumeventi.com/innovation",
+        "name": "Classicum",
+        "description": "Web app to manage the Classicum Organization's administration (guests, parties, lists...)",
+        "maincolor": "rgb(0, 0, 0)"
+    },
+    {
         "img": "logohand.png",
         "link": "www.yeplog.centroyep.it",
         "name": "YepLog",
         "description": "Online educational archive of exercises and materials to study scientific subjects",
-        "maincolor": "rgb(0, 0, 0)"
-    },
-    {
-        "img": "classicum.png",
-        "name": "Classicum",
-        "description": "Web app to manage the Classicum Organization's administration (guests, parties, lists...)",
         "maincolor": "rgb(0, 0, 0)"
     },
     {
