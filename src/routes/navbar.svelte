@@ -1,8 +1,8 @@
 <script lang="ts">
     const items = [
-        { name: "Home", href: "/" },
-        { name: "About", href: "/about" },
-        { name: "Contact", href: "/contact" }
+        { name: "Home", href: "#" },
+        { name: "Tech", href: "#tech" },
+        { name: "Projects", href: "#projects" }
     ];
 </script>
 

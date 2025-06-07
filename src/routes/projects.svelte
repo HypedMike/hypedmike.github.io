@@ -27,7 +27,7 @@
     ];
 </script>
 
-<section style="height: 100vh;">
+<section style="height: 100vh;" id="projects">
     <h1 class="stylized-title">Projects</h1>
 
     <div class="projects-container">

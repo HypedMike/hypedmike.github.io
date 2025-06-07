@@ -15,7 +15,7 @@
     ]
 </script>
 
-<section>
+<section id="tech">
     <div class="tech-container">
         {#each items as item}
             <div class="tech-card">
@@ -27,12 +27,6 @@
 </section>
 
 <style>
-    h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 2.5em;
-        color: #2c02ff;
-        margin-bottom: 20px;
-    }
 
     .tech-container {
         display: flex;
