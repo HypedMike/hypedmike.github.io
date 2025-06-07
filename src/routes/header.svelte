@@ -113,4 +113,22 @@
     .social-links a:hover {
         color: #8400ff;
     }
+
+    @media (max-width: 800px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            width: 100%;
+            margin-left: 0;
+        }
+        section {
+            width: 100%;
+            text-align: center;
+        }
+        .logo-img {
+            width: 200px;
+            height: 200px;
+        }
+    }
 </style>
