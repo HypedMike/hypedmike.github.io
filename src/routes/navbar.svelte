@@ -26,6 +26,9 @@
         justify-content: flex-start;
         padding-top: 30px;
         gap: 20px;
+        position: fixed;
+        left: 0;
+        top: 0;
     }
 
     .nav-link {

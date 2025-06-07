@@ -7,17 +7,33 @@
                 MICHELE SALADINO
             </span>
         </h1>
-        <p>
-            Open Source Creator | AI Enthusiast
+        <p style="max-width: 500px; text-align: center;">
+            Web Developer | <span class="stylized-title reverse">AI</span> Enthusiast | Microservices Advocate | Mountain freak
         </p>
     </section>
     <section>
-        <img src="/logo.png" alt="Website Logo" />
-        <p>Follow us on social media:</p>
-        <ul>
-            <li><a href="https://twitter.com">Twitter</a></li>
-            <li><a href="https://facebook.com">Facebook</a></li>
-            <li><a href="https://instagram.com">Instagram</a></li>
+        <div class="logo-img">
+
+        </div>
+        <ul class="social-links">
+            <li>
+                <a href="https://twitter.com">
+                    <img src="https://img.icons8.com/color/512/linkedin.png" alt="LinkedIn Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com">
+                    <img src="https://img.icons8.com/color/512/facebook.png" alt="Facebook Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com">
+                    <img src="https://img.icons8.com/color/512/instagram-new.png" alt="Instagram Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
+                    Instagram
+                </a>
+            </li>
         </ul>
     </section>
 </header>
@@ -26,15 +42,22 @@
     header {
         display: flex;
         justify-content: space-between;
-        padding: 20px;
         color: white;
         width: calc(100vw - 380px);
+        height: 100vh;
     }
 
     .stylized-title{
-        margin-bottom: 5px;
         text-transform: uppercase;
         background: linear-gradient(to right, #8400ff, #2c02ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        display: inline-block;
+    }
+
+    .reverse {
+        background: linear-gradient(to left, #8400ff, #c521ac);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -45,6 +68,10 @@
         flex: 1;
         margin: 0 10px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     h1 {
@@ -59,23 +86,31 @@
         font-size: 1.2em;
     }
 
-    nav ul {
-        list-style-type: none;
+    .logo-img {
+        width: 400px;
+        height: 400px;
+        background-image: url("https://avatars.githubusercontent.com/u/83963270?v=4");
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .social-links {
+        list-style: none;
         padding: 0;
+        gap: 10px;
     }
 
-    nav ul li {
+    .social-links li {
         display: inline;
-        margin-right: 15px;
     }
-
-    nav ul li a {
-        color: #61dafb;
+    .social-links a {
         text-decoration: none;
+        color: white;
+        font-size: 1.2em;
     }
-
-    img {
-        max-width: 100px;
-        height: auto;
+    .social-links a:hover {
+        color: #8400ff;
     }
 </style>
