@@ -1,0 +1,1 @@
+{"version":3,"file":"jsdoc-types.d.ts","sourceRoot":"","sources":["../../src/compiler/jsdoc-types.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,aAAa,CAAC;AAEjD,wBAAgB,wBAAwB,CAAC,IAAI,EAAE;IAC9C,MAAM,EAAE,aAAa,EAAE,CAAC;IACxB,OAAO,EAAE,MAAM,EAAE,CAAC;CAClB,GAAG,MAAM,CAOT;AAED;;;;;;;GAOG;AACH,wBAAgB,UAAU,CAAC,MAAM,EAAE,aAAa,EAAE,GAAG,MAAM,CAoB1D"}
