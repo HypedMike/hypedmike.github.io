@@ -17,19 +17,19 @@
         </div>
         <ul class="social-links">
             <li>
-                <a href="https://twitter.com">
+                <a href="https://www.linkedin.com/in/michele-saladino/">
                     <img src="https://img.icons8.com/color/512/linkedin.png" alt="LinkedIn Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
                     LinkedIn
                 </a>
             </li>
             <li>
-                <a href="https://facebook.com">
-                    <img src="https://img.icons8.com/color/512/facebook.png" alt="Facebook Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
-                    Facebook
+                <a href="https://github.com/HypedMike">
+                    <img src="https://img.icons8.com/color/512/github.png" alt="Facebook Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
+                    GitHub
                 </a>
             </li>
             <li>
-                <a href="https://instagram.com">
+                <a href="https://www.instagram.com/michele.sldn">
                     <img src="https://img.icons8.com/color/512/instagram-new.png" alt="Instagram Logo" style="width: 24px; height: 24px; vertical-align: middle;"/>
                     Instagram
                 </a>
@@ -114,11 +114,15 @@
         color: #8400ff;
     }
 
+    .social-links a {
+        white-space: nowrap;
+    }
+
     @media (max-width: 800px) {
         header {
             flex-direction: column;
             align-items: center;
-            height: auto;
+            height: 100vh;
             width: 100%;
             margin-left: 0;
         }
@@ -129,6 +133,10 @@
         .logo-img {
             width: 200px;
             height: 200px;
+        }
+
+        h1 {
+            text-align: center;
         }
     }
 </style>

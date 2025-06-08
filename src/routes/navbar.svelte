@@ -19,14 +19,14 @@
 
 <div class="navbar-button">
     <button onclick={() => showNavbar = !showNavbar} class="toggle-button">
-        Menu
+        <img src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png" alt="Menu Icon" style="width: 24px; height: 24px; vertical-align: middle;"/>
     </button>
 </div>
 
 {#if showNavbar}
     <nav transition:slide={{ duration: 300 }}>
         {#each items as item}
-            <a href="{item.href}" class="nav-link">
+            <a href="{item.href}" class="nav-link" onclick="{() => showNavbar = false}">
                 {item.name}
             </a>
         {/each}
@@ -66,6 +66,7 @@
         position: fixed;
         left: 0;
         top: 0;
+        z-index: 999;
     }
 
     .nav-link {

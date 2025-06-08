@@ -113,5 +113,6 @@
         top: -30px;
         width: 100%;
         position: relative;
+        z-index: 200;
     }
 </style>
