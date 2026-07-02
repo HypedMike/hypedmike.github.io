@@ -1,14 +1,17 @@
-import Header from './components/Header';
-import Tech from './components/Tech';
-import Projects from './components/Projects';
-import styles from './page.module.css';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Work from './components/Work';
+import Footer from './components/Footer';
 
 export default function Home() {
 	return (
-		<div className={styles.body}>
-			<Header />
-			<Tech />
-			<Projects />
-		</div>
+		<>
+			<Hero />
+			<About />
+			<Skills />
+			<Work />
+			<Footer />
+		</>
 	);
 }
