@@ -22,15 +22,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm i
-      - run: npm run prepare --if-present
+      - run: npm ci
+      - run: npm run lint --if-present
       - run: npm run build --if-present
 
       # Upload build output as artifact for GitHub Pages
       - name: Upload production-ready build files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build
+          path: ./out
 
   deploy:
     needs: build
