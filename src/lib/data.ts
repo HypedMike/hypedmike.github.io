@@ -24,6 +24,12 @@ export const focus = [
 export type Link = { label: string; href: string };
 
 export const featured: { title: string; tags: string[]; text: string; links: Link[] }[] = [
+		{
+		title: 'Impulsa',
+		tags: ['co-founder', 'tech lead'],
+		text: 'An AI interview-practice platform for students and junior professionals. Simulated interviews by voice or text, tailored to a company or job description, with feedback and a readiness score. I co-founded it and lead the technical side.',
+		links: [{ label: 'impulsajob.com', href: 'https://impulsajob.com' }]
+	},
 	{
 		title: 'Security Camera',
 		tags: ['go', 'rust', 'telegram'],
@@ -43,16 +49,10 @@ export const featured: { title: string; tags: string[]; text: string; links: Lin
 		]
 	},
 	{
-		title: 'Impulsa',
-		tags: ['co-founder', 'tech lead'],
-		text: 'A cross-border job platform connecting Italy and Spain. I co-founded it and lead the technical side, from architecture to delivery.',
-		links: [{ label: 'impulsajob.com', href: 'https://impulsajob.com' }]
-	},
-	{
 		title: 'Chiese nella Città',
 		tags: ['web app', 'client work'],
 		text: 'News and information for the churches of Lucca, commissioned by the Diocese of Lucca. The grown-up version of Le Vele, my parish community app.',
-		links: [{ label: 'Live site', href: 'https://chiese-della-citta-lucca.fly.dev/' }]
+		links: [{ label: 'Live site', href: 'https://chiese-della-citta.vercel.app' }]
 	}
 ];
 
