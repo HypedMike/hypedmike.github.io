@@ -30,3 +30,5 @@ src/lib/paraglide
 project.inlang/.lix/
 project.inlang/.meta.json
 project.inlang/README.md
+
+/node_modules
