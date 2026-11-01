@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { profile, focus, featured, more, experience } from '$lib/data';
+	import { profile, focus, featured, more } from '$lib/data';
 </script>
 
 <div class="page">
@@ -13,7 +13,6 @@
 			<div class="links">
 				<a href="#focus">Focus</a>
 				<a href="#projects">Projects</a>
-				<a href="#experience">Experience</a>
 				<a href="#contact">Contact</a>
 			</div>
 		</nav>
@@ -81,28 +80,10 @@
 			</div>
 		</section>
 
-		<section id="experience" class="split">
-			<div class="head">
-				<p class="eyebrow mono">03 — experience</p>
-				<h2>Where I work</h2>
-			</div>
-			<ol class="exp">
-				{#each experience as e}
-					<li>
-						<span class="mono period">{e.period}</span>
-						<div class="exp-body">
-							<span class="exp-title">{e.title}</span>
-							<span class="muted">{e.text}</span>
-						</div>
-					</li>
-				{/each}
-			</ol>
-		</section>
-
 		<section id="contact" class="contact-wrap">
 			<div class="contact glass">
 				<div class="cglow" aria-hidden="true"></div>
-				<p class="eyebrow mono rel">04 — contact</p>
+				<p class="eyebrow mono rel">03 — contact</p>
 				<h2 class="rel">Have something worth building? Let's keep it clean.</h2>
 				<div class="actions rel">
 					{#if profile.email}
