@@ -1,6 +1,4 @@
 // Content for the site. Edit here, the page updates.
-// "Where I work" is maintained by hand: LinkedIn's API cannot be used from a static site
-// (see README).
 
 export const profile = {
 	name: ['Michele', 'Saladino'],
@@ -59,17 +57,10 @@ export const featured: { title: string; tags: string[]; text: string; links: Lin
 ];
 
 export const more: { title: string; text?: string; stack?: string; href: string }[] = [
-	{ title: 'WhatsappGoMiner', text: 'Nerdy stats from a WhatsApp chat export — messages per person, hour and month.', stack: 'go', href: 'https://github.com/HypedMike/WhatsappGoMiner' },
 	{ title: 'youtube-spotify-sync', text: 'Keeps a Spotify playlist mirrored from a YouTube Music one.', stack: 'go', href: 'https://github.com/HypedMike/youtube-spotify-sync' },
 	{ title: 'MontAuth', text: 'A minimal JWT auth library: sessions, validation and refresh.', stack: 'typescript', href: 'https://github.com/HypedMike/auth-system' },
 	{ title: 'telegram-node-sdk', text: 'A fully typed Telegram bot client you can use from IntelliSense alone.', stack: 'typescript', href: 'https://github.com/HypedMike/telegram-node-sdk' },
+	{ title: 'Next-CRM', text: 'A CRM web app built with Next.js and TypeScript.', stack: 'typescript', href: 'https://github.com/HypedMike/next-crm' },
 	{ title: 'Classicum', text: 'Admin for the Classicum association: guests, parties and lists.', stack: 'web app', href: 'https://www.classicumeventi.com/' },
 	{ title: 'Secret Santa', href: 'https://github.com/HypedMike/secret_santa' }
-];
-
-export const experience: { period: string; title: string; text: string }[] = [
-	{ period: '2025 — now', title: 'Move Solutions', text: 'Vue 3 and TypeScript platform for structural health monitoring.' },
-	{ period: 'Now', title: 'Co-founder & Tech Lead · Impulsa', text: 'Cross-border Italy/Spain job platform.' },
-	{ period: 'Now', title: 'Founding Partner & IT Manager · Classicum ETS', text: 'Website and internal tools for a cultural youth association in Lucca.' },
-	{ period: '2025', title: 'BSc Computer Science · University of Pisa', text: 'Now continuing with the MSc in Computer Science.' }
 ];
