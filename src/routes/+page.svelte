@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { profile, focus, featured, more } from '$lib/data';
+	import TwoSteps from '$lib/components/TwoSteps.svelte';
 </script>
 
 <div class="page">
@@ -13,6 +14,7 @@
 			<div class="links">
 				<a href="#focus">Focus</a>
 				<a href="#projects">Projects</a>
+				<a href="#twosteps">TwoSteps</a>
 				<a href="#contact">Contact</a>
 			</div>
 		</nav>
@@ -80,10 +82,12 @@
 			</div>
 		</section>
 
+		<TwoSteps />
+
 		<section id="contact" class="contact-wrap">
 			<div class="contact glass">
 				<div class="cglow" aria-hidden="true"></div>
-				<p class="eyebrow mono rel">03 — contact</p>
+				<p class="eyebrow mono rel">04 — contact</p>
 				<h2 class="rel">Have something worth building? Let's keep it clean.</h2>
 				<div class="actions rel">
 					{#if profile.email}
