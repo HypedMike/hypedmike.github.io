@@ -26,8 +26,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run prepare --if-present
-      - run: pnpm run build --if-present
+      - run: pnpm run prepare
+      - run: pnpm run build
 
       # Upload build output as artifact for GitHub Pages
       - name: Upload production-ready build files
