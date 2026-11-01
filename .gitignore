@@ -31,4 +31,4 @@ project.inlang/.lix/
 project.inlang/.meta.json
 project.inlang/README.md
 
-node_modules
+/node_modules
