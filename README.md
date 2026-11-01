@@ -36,3 +36,10 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Content
+
+All page content lives in `src/lib/data.ts` (projects, focus areas, and the
+"Where I work" list). It is edited by hand: LinkedIn's API can't be called from
+a static GitHub Pages site (it needs an OAuth client secret and, for current
+position, an approved access tier).
